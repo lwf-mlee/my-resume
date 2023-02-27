@@ -1,0 +1,192 @@
+\documentclass[letterpaper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[margin=0.5in]{geometry}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{: #2}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+
+  \item{
+  }
+  \vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  
+  \vspace{2pt}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Michael Lee}} & Email: \href{mailto:michaellee2025@u.northwestern.edu}{michaellee2025@u.northwestern.edu}\\
+  LinkedIn: \href{https://www.linkedin.com/in/lhf-michael-lee/}{https://www.linkedin.com/in/lhf-michael-lee/}& Cell:~+1 (720) 644-7634 \\
+
+  \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+    \resumeSubheading
+      {Northwestern University}{Evanston, IL}
+      {Combined B.S./M.S., Computer Engineering; GPA: 3.62/4.00} {Expected June 2025}
+      \textbf{Relevant Coursework} \\
+      Programming, DC \& AC Circuits, Design Thinking \& Communication, Advanced Digital Design, Solid State Engineering \\
+      \textbf{Awards:} Dean's List - Honors (Winter, Summer 2022)
+    \resumeSubheading
+      {Smoky Hill High School}{Aurora, CO}
+      {High School Diploma; GPA 4.00/4.00} {Aug 2017 - Dec 2020} 
+      \textbf{Awards:} Valedictorian, National AP Scholar
+      \vspace{5pt}
+
+
+
+
+
+%-----------SKILLS-----------------
+\vspace{-5pt}
+\section{Skills}
+
+\resumeItemListStart
+  \vspace{12pt}
+  \resumeItemWithoutTitle{}
+  {C/C++, Python, MATLAB}
+  \resumeItemWithoutTitle{}
+  {LTSpice, KiCad, \LaTeX, Microsoft Office}
+\resumeItemListEnd
+
+
+%-----------EXPERIENCE-----------------
+\vspace{-12pt}
+\section{Experience}
+
+    \resumeSubheading{Northwestern University}{Evanston, IL}
+    {Mail Package Center Assistant (Part-time)}{Jan 2022 - Present}
+    \resumeItemListStart
+
+        \resumeItemWithoutTitle{}
+        {Worked efficiently with fellow employees for a productive work flow of scanning, shelving, and retrieving customers’ packages while ensuring their quality}
+        \resumeItemWithoutTitle{}
+        {Assisted students with locating lost packages and misdeliveries}
+  
+    \resumeItemListEnd
+\vspace{-5pt}
+    \resumeSubheading
+		{Domino's Pizza}{Evanston, IL, Aurora, CO}
+		{Customer Service Representative (Full-time)}{Feb 2021 - Nov 2021}
+		\resumeItemListStart
+
+        \resumeItemWithoutTitle{}
+          {Prepared and thoroughly inspected fresh, hot pizzas for customers}
+        \resumeItemWithoutTitle{}
+          {Coordinated with crew members to resolve customer disputes}
+        \resumeItemWithoutTitle{}
+        {Acted as a role model to train new employees on phones, point-of-sale machines, and pizza makeline}
+
+		\resumeItemListEnd
+
+\vspace{-5pt}
+    \resumeSubheading
+		{University of Northern Colorado}{Greeley, CO}
+		{Frontiers of Science Insitute Scholar}{Jun 2019 - Jul 2019}
+		\resumeItemListStart
+        \resumeItemWithoutTitle{}
+          {Partnered with a fellow scholar under supervision of an undergraduate student}
+        \resumeItemWithoutTitle{}
+          {Analyzed RA/DEC coordinates vs qualitivative data of quasars from a set of 13 Hubble Space Telescope images using DS9 software}
+        \resumeItemWithoutTitle{}
+        {Wrote a final research paper which merited the ``Technical Writing Award''}
+		\resumeItemListEnd
+
+
+\vspace{-5pt}
+    \resumeSubheading
+		{Colorado School of Mines}{Golden, CO}
+		{Summer Multicultural Engineering Training Program Participant}{Jun 2019}
+		\resumeItemListStart
+        \resumeItemWithoutTitle{}
+          {Applied the engineering design process to devise a low-cost, portable, and low-maintenance solar water purification system for arid, Sub-Saharan African countries}
+        \resumeItemWithoutTitle{}
+        {Proofread our final poster and slideshow that won the ``Best Presentation Award''}
+		\resumeItemListEnd
+
+
+
+%-----------Projects-----------------
+\vspace{-5pt}
+\section{Projects \& Activities}
+
+    \resumeSubheading{Timed Medication Dispenser}{Evanston, IL}
+    {Project Co-manager}{Feb 2022 - Present}
+    \resumeItemListStart
+        \resumeItemWithoutTitle{}
+          {Collaborating with a friend to design and build an automatic medication dispenser to prevent medication overdoses}
+    \resumeItemWithoutTitle{}
+          {Breadboarding and designing a PCB with an ESP32 microcontroller and LCD to track/display time and battery level, controlling a servo to drop the correct dose}
+    \resumeItemWithoutTitle{}
+          {Verifying components' specifications with manufacturers' data sheets to avoid unsafe electronic connections}
+          \resumeItemListEnd
+        
+    \resumeSubheading{Northwestern Archery Club}{Evanston, IL}
+    {General Member}{Apr 2022 - Present}
+
+
+
+
+\vspace{-5pt}
+
+
+\end{document}
